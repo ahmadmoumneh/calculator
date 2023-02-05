@@ -1,0 +1,39 @@
+.screen {
+  height: 4rem;
+  background: linear-gradient(45deg, lightgrey, white);
+  border-radius: 0.5rem;
+  padding: 0.4rem;
+  font-size: 2rem;
+  direction: rtl;
+  border-top: 1px solid darkgrey;
+  border-left: 1px solid darkgrey
+}
+
+.operator {
+  display: inline-flex;
+  font-size: 1rem;
+  position: absolute;
+}
+
+.digit {
+  direction: ltr;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.calculator {
+  margin: 3rem auto;
+  padding: 2rem;
+  width: fit-content;
+  background: linear-gradient(45deg, lightblue, aliceblue);
+  border-radius: 1rem;
+  box-shadow: 1px 1px darkgrey;
+}
+
+.panel {
+  margin: 2rem 0 0;
+  width: 16rem;
+  direction: ltr;
+}

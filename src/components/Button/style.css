@@ -1,0 +1,16 @@
+.button {
+  display: inline-flex;
+  width: 4rem;
+  height: 3rem;
+  background: linear-gradient(45deg, lightgrey, aliceblue);
+  border-radius: 0.3rem;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.button:active {
+  background: linear-gradient(45deg, grey, aliceblue);
+}
